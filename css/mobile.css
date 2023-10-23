@@ -1,0 +1,239 @@
+@media (max-width: 768px){
+
+    header{
+        height: 500px;
+    }
+
+    /*_________________
+
+    Menu de navegação e logo
+    _________________*/
+
+    menu{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    menu img{
+        width: 170px;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+
+    /*_________________
+
+    Conteúdo header
+    _________________*/
+
+
+    .container-header{
+        align-items: center;
+    }
+
+    .text-header{
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .text-header h1{
+        font-size: 25px;
+    }
+
+    .text-header p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    /*_________________
+
+    Seção 01
+    _________________*/
+
+    .section1{
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-section1{
+        width: 300px;
+        margin: 0 auto;
+        gap: 20px; align-items: center;
+    }
+
+    .device-section1{
+        display: none;
+    }
+
+    .text-section1 h2{
+        font-size: 25px; font-weight: normal;
+        text-align: center;
+    }
+    
+    .text-section1 p{
+        font-size: 14px; font-weight: lighter;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .text-section1 ul li{
+        font-size: 13px; font-weight: lighter;
+        list-style-position: inside;
+        line-height: 25px;
+    }
+
+    button{
+        width: 150px;
+        font-size: 13px;
+    }
+
+    /*_________________
+
+    Seção 02
+    _________________*/
+
+    .section2{
+        height: 450px;
+    }
+
+    .container-section2 h2{
+        font-size: 21px;
+    }
+    
+    .container-section2 p{
+        font-size: 13px;
+    }
+
+    
+    /*_________________
+
+    Seção 03
+    _________________*/
+
+    .section3{
+        width: 100%;
+        display: flex; flex-direction: column;
+    }
+
+    .quadro{
+        width: 100%; height: 320px; padding: 0;
+        display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px;
+    }
+
+    .q1 h2{
+        font-weight: lighter; font-size: 21px;
+    }
+    
+    .q1 p{
+        width: 300px;
+        line-height: 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .q2 p{
+        font-size: 13px;
+        width: 300px;
+        text-align: center;
+     }
+    
+     .sobre-autor{
+        display: flex; flex-direction: row; justify-content: space-between;
+        width: 220px;
+     }
+    
+     .sobre-autor img{
+        width: 40px; height: 40px;
+     }
+    
+     .container-autor h3{
+        font-weight: normal;
+        font-size: 18px;
+     }
+    
+     .container-autor span{
+        font-style: italic; font-weight: lighter;
+        font-size: 15px;
+     }
+
+     .slider-bullets span{
+        cursor: pointer;
+        width: 15px; height: 15px;
+        border-radius: 50%;
+        background-color: #ccc;
+    }
+
+    /*_________________
+
+    Seção 04
+    _________________*/
+
+    .section4{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-form{
+        width: 100%; height: auto;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+
+    form{
+        width: 300px;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    form p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .container-map{
+        margin-top: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container-map h2{
+        font-size: 21px; font-weight: normal;
+    }
+    
+    .map{
+        width: 300px; height: 300px;
+    }
+
+    /*_________________
+
+    Footer
+    _________________*/
+
+    footer{
+        flex-direction: column; justify-content: center; gap: 15px;
+    }
+
+    footer p{
+        font-size: 12px; font-weight: normal;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
