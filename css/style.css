@@ -29,7 +29,7 @@ menu img{
 }
 
 nav ul{
-    width: 300px; margin-right: 5%;
+    width: 400px; margin-right: 10%;
     display: flex; flex-direction: row; gap: 50px;
     list-style-type: none;
 }
