@@ -36,8 +36,9 @@
         text-align: center;
     }
 
-    nav.menu-mobile:hover ul{
-        display: block;
+    nav.menu-mobile  ul li:hover{
+        background-color: #e2dfdf;
+        font-size: 13px;
     }
 
     nav.menu-mobile ul li{
