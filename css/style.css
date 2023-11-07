@@ -194,6 +194,25 @@ Seção 03
     font-size: 15px;
  }
 
+ .scrollEquipe{
+    max-width: 500px;
+    overflow: hidden;
+ }
+
+ .scroll-wraper{
+    width: 100%;
+    display: flex;
+ }
+
+ .equipe-single{
+    float: left;
+    width: 100%; 
+ }
+
+ .equipe-single p{
+    font-size: 13px;
+ }
+
  .sobre-autor{
     display: flex; flex-direction: row; justify-content: space-between;
     width: 220px;
@@ -208,7 +227,7 @@ Seção 03
  }
 
  .container-autor span{
-    font-style: italic; font-weight: lighter;
+    font-style: italic; font-weight: lighter; font-size: 13px;
  }
 
 
@@ -218,7 +237,7 @@ Seção 03
 
 .slider-bullets span{
     cursor: pointer;
-    width: 20px; height: 20px;
+    width: 15px; height: 15px;
     border-radius: 50%;
     background-color: #ccc;
 }
@@ -234,7 +253,7 @@ Seção 03
 
 /*_________________
 
-Seção 01
+Seção 04
 _________________*/
 
 .section4{
