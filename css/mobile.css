@@ -10,7 +10,7 @@
     _________________*/
 
     menu{
-        flex-direction: column;
+        flex-direction: row;
         padding: 30px;
     }
 
@@ -18,17 +18,31 @@
         width: 170px;
     }
 
-    nav{
+    nav.menu-desktop{
+        display: none;
+    }
+
+    nav.menu-mobile{
+        display: block;
+    }
+
+    nav.menu-mobile ul{
         width: 100%;
+        position: absolute; top: 60px; left: 0;
+        background-color: white;
+        list-style-type: none;
+        text-align: center;
     }
 
-    nav ul{
-        width: 300px;
-        justify-content: space-around;
-        margin: 0 auto;
-        margin-top: 30px;
+    nav.menu-mobile ul li{
+        border-bottom: 1px solid black;
+        padding: 8px 0;
     }
 
+    nav.menu-mobile ul li a{
+        color: white;
+        text-decoration: none;
+    }
 
     /*_________________
 
@@ -38,6 +52,7 @@
 
     .container-header{
         align-items: center;
+        margin-top: 175px;
     }
 
     .text-header{
