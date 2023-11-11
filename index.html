@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projto 03</title>
+    <title>Projeto 03</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
     <meta name="description" content="">
@@ -12,7 +12,9 @@
 </head>
 <body>
 
+    <!-- Header - Logo e frase inicial-->
     <header>
+        <!--navegação desktop e mobile-->
         <menu>
             <img src="imagens/logo-danki.png" alt="">
             <nav class="menu-desktop">
@@ -22,7 +24,7 @@
                     <li><a href="#sobre">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-            </nav>
+            </nav><!--desktop-->
 
             <nav class="menu-mobile">
                 <ul>
@@ -31,17 +33,20 @@
                     <li><a href="#sobre">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
+            </nav><!--mobile-->
         </menu>
 
+        <!--frase inicial do site-->
         <div class="container-header">
             <div class="text-header">
                 <h1>Sistemas próprios para empresas auntênticas</h1>
                 <p>Na Danki Code, nossa paixão é criar sites de alta qualidade que impressionam e superam as expectativas. Cada projeto que entregamos é uma obra-prima de design e funcionalidade, construída para impulsionar seu sucesso online.</p>
             </div>
-        </div>
-    </header>
+        </div><!--conteúdo do cabeçalho-->
+    </header><!--cabeçalho-->
 
 
+    <!--Sessão de serviços-->
     <section id="servicos" class="section1">
         <div class="text-section1">
             <h2>Desenvolvemos sistemas únicos</h2>
@@ -55,19 +60,19 @@
         </div>
 
         <div class="device-section1"></div>
-    </section>
+    </section><!--serviços-->
 
 
+    <!--Sessão sobre da empresa-->
     <section id="sobre" class="section2">
         <div class="container-section2">
             <h2>Desenvolvido de Pessoas para pessoas</h2>
             <p>Somos uma empresa comprometida com a excelência. Nossa reputação é construída com base na qualidade de nossos serviços e na seriedade com que enfrentamos cada projeto. Na Danki Code, não poupamos esforços para garantir que cada detalhe seja aperfeiçoado. Na Danki Code, não acreditamos em soluções genéricas - nosso foco é entregar produtos autênticos e inovadores que se destacam na multidão.</p>
         </div><!--conteúdo da seção 2-->
-    </section>
+    </section><!--Sobre - conheça a empresa-->
 
 
     <!--sessão - conheça nosso time e nossos colaboradores-->
-
     <section class="section3">
         <div class="q1 quadro">
             <h2>Nosso time</h2>
@@ -114,14 +119,13 @@
 
             </div><!-- fim da div scroll equipe-->
 
-            <div class="slider-bullets">
-
-            </div>
+            <div class="slider-bullets"></div>
         </div><!--quadro 2. descrição dos colaboradores-->
 
-    </section><!--terceira sesão -->
+    </section><!--terceira sesão - equipe e sistema de scroll por colaborador -->
 
 
+    <!--Sessão de contato e localização-->
     <section id="contato" class="section4">
         <div class="container-form">
             <form action="">
@@ -135,7 +139,7 @@
 
                 <button>Enviar</button>
             </form>
-        </div>
+        </div><!--conteúdo do formulário-->
 
         <div class="container-map">
             <h2>Faça uma visita</h2>
@@ -143,13 +147,15 @@
                 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCx8sh_HlLuleKqI2-ujHXj3P4jZfhnSUQ'></script><div class="map" id='gmap_canvas'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style> <a href='http://maps-generator.com/pt'>maps-generator.com</a><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-27.586811,-48.54557299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-27.586811,-48.54557299999999)});infowindow = new google.maps.InfoWindow({content:'<p style="color:black;text-align:left;font-weight:bold;">Meu Mapa</p><p style="color:black;text-align:left;">Rua Rafael Bandeira Florianópolis</p><br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
                 </script>
             </div>
-        </div>
-    </section>
+        </div><!-- conteúdo API Gogolle Maps-->
+    </section><!--sessão final-->
 
+
+    <!--Rodapé-->
     <footer>
         <p>Todos os direitos reservados</p>
         <p>Cidade do Desenvolvimento, Estado da Programação</p>
-    </footer>
+    </footer><!--footer-->
 
 
 
